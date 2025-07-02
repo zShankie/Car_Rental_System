@@ -1,61 +1,68 @@
 # Car Rental System 🚗
 
-This is a console-based Car Rental System written in C++ that allows users to view available cars, see their details, and proceed with a rental based on payment validation. The system includes login authentication and personal detail input to simulate a car leasing process.
+A simple terminal-based Car Rental System built using C++. This project simulates the process of selecting, viewing details, and leasing/renting a car. It includes user authentication, basic transaction validation, and car inventory display, all in a text-based interface.
 
 ---
 
-## 🧠 Features
+## 🚀 Features
 
-- Car selection from a list of 9 popular brands
-- Displays model, color, speed, price, and manufacturing year
-- Login authentication using a preset password
-- User input for name, ID, and payment
-- Payment validation based on selected car price
-- Console-based UI with basic system prompts
+- 📋 Car selection from a predefined list
+- 🔍 View car model, color, speed, and price
+- 🧾 Simulated lease/payment with validation
+- 🔒 Password-protected login system
+- 🖥️ Clean terminal-based user interface using `conio.h`
 
 ---
 
 ## 🛠 Tech Stack
 
-- Language: C++
-- Standard Library: iostream, conio.h, stdlib.h
+- **Language**: C++
+- **IDE**: Code::Blocks / Dev C++ / Visual Studio
+- **Concepts Used**:
+  - Structures
+  - Arrays
+  - Functions
+  - Input/Output
+  - `conio.h` for character-level input
+  - `stdlib.h` and `system("CLS")` for UI experience
 
 ---
 
-## 🧪 How to Run
-
-1. Open the project in a C++ compatible IDE (like Code::Blocks, Turbo C++, or VS Code with C++ extensions).
-2. Compile and run `main.cpp`.
-3. On launch, enter the password: `pass`
-4. Follow the prompts to view car details and initiate a rental.
-
----
-
-## 📌 Notes
-
-- The system is entirely console-based and runs locally.
-- Used basic structures for storing car and user data.
-- All data is stored temporarily and resets on program restart.
-
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 Car_Rental_System/
-├── main.cpp
-└── README.md
+├── main.cpp         # Source code file
+├── README.md        # Project overview and instructions
+├── LICENSE          # MIT License
 ```
 
 ---
 
-## 🧑‍💻 Author
+## 🧪 Getting Started
 
-- GitHub: [zShankie](https://github.com/zShankie)
-- Project Link: [Car Rental System](https://github.com/zShankie/Car_Rental_System)
+To run this project on your local machine:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/zShankie/Car_Rental_System.git
+cd Car_Rental_System
+```
+
+### 2. Compile and Run
+
+Open `main.cpp` in any C++ IDE or compile using terminal:
+
+```bash
+g++ main.cpp -o CarRental
+./CarRental
+```
+
+> 🔑 Default login password: `pass`
 
 ---
 
-## 📄 License
+## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
